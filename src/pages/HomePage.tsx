@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import YasirImg from '../Assets/Yasir.png';
 
 const HomePage = ({ navigateTo }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -106,10 +107,10 @@ const HomePage = ({ navigateTo }) => {
               {/* Main image */}
               <div className="relative overflow-hidden rounded-3xl border-2 border-primary/30 glass-morphism">
                 <ImageWithFallback
-                  src="src/Assets/Yasir.png"
-                  alt="Alex Chen - UI/UX Designer"
+                  src={YasirImg}
+                  alt="Yasir Khan - UI/UX Designer"
                   className="w-80 h-96 object-cover hover:scale-105 transition-transform duration-700"
-/> 
+                />
                 
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
