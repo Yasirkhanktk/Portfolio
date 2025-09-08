@@ -106,7 +106,7 @@ const HomePage = ({ navigateTo }) => {
               {/* Main image */}
               <div className="relative overflow-hidden rounded-3xl border-2 border-primary/30 glass-morphism">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1475118258341-d2a655a5b11a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXNpZ25lciUyMHBvcnRyYWl0fGVufDF8fHx8MTc1NzMwNzkwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src="https://i.pinimg.com/736x/60/f4/d5/60f4d5b56bcb7c35f994f04fdf4024eb.jpg"
                   alt="Alex Chen - UI/UX Designer"
                   className="w-80 h-96 object-cover hover:scale-105 transition-transform duration-700"
                 />
