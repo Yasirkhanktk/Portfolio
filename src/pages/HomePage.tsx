@@ -52,7 +52,7 @@ const HomePage = ({ navigateTo }) => {
             <div className="space-y-6">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 <span className="block text-foreground mb-2">Hello, I'm</span>
-                <span className="block gradient-text">Alex Chen</span>
+                <span className="block gradient-text">Yasir Khan</span>
               </h1>
               
               <h2 className="text-xl md:text-2xl lg:text-3xl text-primary font-medium">
