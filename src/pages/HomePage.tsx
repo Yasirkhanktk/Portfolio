@@ -106,7 +106,7 @@ const HomePage = ({ navigateTo }) => {
               {/* Main image */}
               <div className="relative overflow-hidden rounded-3xl border-2 border-primary/30 glass-morphism">
                 <ImageWithFallback
-                  src="Assets/Yasir.png"
+                  src="src/Assets/Yasir.png"
                   alt="Yasir Khan - UI/UX Designer"
                   className="w-80 h-96 object-cover hover:scale-105 transition-transform duration-700"
 /> 
